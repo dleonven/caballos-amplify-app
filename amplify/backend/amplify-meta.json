@@ -1,0 +1,51 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "caballosamplifyapp-20190204022758-authRole",
+			"UnauthRoleArn": "arn:aws:iam::297113338796:role/caballosamplifyapp-20190204022758-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::297113338796:role/caballosamplifyapp-20190204022758-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "caballosamplifyapp-20190204022758-deployment",
+			"UnauthRoleName": "caballosamplifyapp-20190204022758-unauthRole",
+			"StackName": "caballosamplifyapp-20190204022758",
+			"StackId": "arn:aws:cloudformation:us-east-1:297113338796:stack/caballosamplifyapp-20190204022758/a43f2ab0-283d-11e9-9090-0a62acea77ae"
+		}
+	},
+	"auth": {
+		"cognito5fded6fe": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/caballosamplifyapp-20190204022758-deployment/amplify-cfn-templates/auth/cognito5fded6fe-cloudformation-template.yml",
+				"logicalId": "authcognito5fded6fe"
+			},
+			"lastPushTimeStamp": "2019-02-04T05:57:32.577Z",
+			"output": {
+				"AppClientSecret": "1ch0rvrc5cod21i2fii0l7ms615fj5kjuo437bgts19ievrspufm",
+				"UserPoolId": "us-east-1_m200lksTW",
+				"AppClientIDWeb": "3iu284qn5cs3atmp83c1ej5amj",
+				"AppClientID": "21bjjpurv975v0vrovukhuh7bv",
+				"IdentityPoolId": "us-east-1:2360f74b-f3d6-4742-8273-74263aa9ff57",
+				"IdentityPoolName": "cognito5fded6fe_identitypool_5fded6fe",
+				"UserPoolName": "cognito5fded6fe_userpool_5fded6fe"
+			},
+			"lastPushDirHash": "c3RVNva1a3iZ2L9QUaVJXhc0ZiE="
+		}
+	},
+	"storage": {
+		"caballosstorage": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/caballosamplifyapp-20190204022758-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storagecaballosstorage"
+			},
+			"lastPushTimeStamp": "2019-02-04T05:57:32.579Z",
+			"output": {
+				"BucketName": "caballos",
+				"Region": "us-east-1"
+			},
+			"lastPushDirHash": "e0qI+q7nuH7ExfTcBXMYEnl8LuQ="
+		}
+	}
+}

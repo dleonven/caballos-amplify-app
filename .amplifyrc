@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "caballosamplifyapp-20190204022758-authRole",
+            "UnauthRoleArn": "arn:aws:iam::297113338796:role/caballosamplifyapp-20190204022758-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::297113338796:role/caballosamplifyapp-20190204022758-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "caballosamplifyapp-20190204022758-deployment",
+            "UnauthRoleName": "caballosamplifyapp-20190204022758-unauthRole",
+            "StackName": "caballosamplifyapp-20190204022758",
+            "StackId": "arn:aws:cloudformation:us-east-1:297113338796:stack/caballosamplifyapp-20190204022758/a43f2ab0-283d-11e9-9090-0a62acea77ae"
+        }
+    }
+}

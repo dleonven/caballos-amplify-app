@@ -1,0 +1,9 @@
+{
+    "bucketName": "caballos",
+    "authPolicyName": "s3_amplify_b0e219ae",
+    "unauthPolicyName": "s3_amplify_b0e219ae",
+    "authRoleName": "caballosamplifyapp-20190204022758-authRole",
+    "unauthRoleName": "caballosamplifyapp-20190204022758-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}
