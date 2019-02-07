@@ -3,6 +3,7 @@ import { TextInput, StyleSheet, View, FlatList, TouchableHighlight, TouchableOpa
 import { Query } from "react-apollo";
 import { graphql, compose, ApolloConsumer } from 'react-apollo';
 import { SearchBar, ListView, Rating } from 'react-native-elements'
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen'
 import debounce from 'lodash/debounce'
 import gql from 'graphql-tag'
 import {updateCacheCurrentHorse} from './updateCacheCurrentHorse'
